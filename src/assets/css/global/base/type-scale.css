@@ -1,0 +1,124 @@
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.5,1500,20,1.25,6,2,&s=0.75|0.5|0.25,2|3|5|8|13,s-l&g=s,l,xl,12 */
+
+:root {
+  --fluid-min-width: 320;
+  --fluid-max-width: 1500;
+
+  --fluid-screen: 100vw;
+  --fluid-bp: calc(
+    (var(--fluid-screen) - var(--fluid-min-width) / 16 * 1rem) /
+      (var(--fluid-max-width) - var(--fluid-min-width))
+  );
+}
+
+@media screen and (min-width: 1500px) {
+  :root {
+    --fluid-screen: calc(var(--fluid-max-width) * 1px);
+  }
+}
+
+:root {
+  --f--2-min: 7.11;
+  --f--2-max: 12.8;
+  --step--2: calc(
+    ((var(--f--2-min) / 16) * 1rem) + (var(--f--2-max) - var(--f--2-min)) *
+      var(--fluid-bp)
+  );
+
+  --f--1-min: 10.67;
+  --f--1-max: 16;
+  --step--1: calc(
+    ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-0-min: 16;
+  --f-0-max: 20;
+  --step-0: calc(
+    ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-1-min: 24;
+  --f-1-max: 25;
+  --step-1: calc(
+    ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-2-min: 36;
+  --f-2-max: 31.25;
+  --step-2: calc(
+    ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-3-min: 54;
+  --f-3-max: 39.06;
+  --step-3: calc(
+    ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-4-min: 81;
+  --f-4-max: 48.83;
+  --step-4: calc(
+    ((var(--f-4-min) / 16) * 1rem) + (var(--f-4-max) - var(--f-4-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-5-min: 121.5;
+  --f-5-max: 61.04;
+  --step-5: calc(
+    ((var(--f-5-min) / 16) * 1rem) + (var(--f-5-max) - var(--f-5-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-6-min: 182.25;
+  --f-6-max: 76.29;
+  --step-6: calc(
+    ((var(--f-6-min) / 16) * 1rem) + (var(--f-6-max) - var(--f-6-min)) *
+      var(--fluid-bp)
+  );
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""),
+    url("/assets/fonts/atkinson_hyperlegible/AtkinsonHyperlegible-Regular.woff2")
+      format("woff2"),
+    url("/assets/fonts/atkinson_hyperlegible/AtkinsonHyperlegible-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local(""), url("/assets/fonts/lora/Lora-Bold.woff2") format("woff2"),
+    url("/assets/fonts/lora/Lora-Bold.ttf") format("truetype");
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--step-3);
+  padding-bottom: 1rem;
+}
+h2 {
+  font-size: var(--step-1);
+}
+p {
+  font-size: var(--step-0);
+  font-family: "Atkinson Hyperlegible", serif;
+}
