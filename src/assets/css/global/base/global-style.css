@@ -91,7 +91,10 @@ main ul li {
 
 footer {
   flex-shrink: 0;
-  padding: 2rem;
+}
+
+footer p {
+  font-size: var(--step--1);
 }
 
 nav ul li {
