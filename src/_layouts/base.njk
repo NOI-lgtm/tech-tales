@@ -4,31 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ title }}</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-        <link rel="manifest" href="/assets/site.webmanifest">
-        <link rel="stylesheet" href="/assets/css/global/index.css">
+        <style>{% getBundle "css" %}</style>
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
     </head>
     <body>
         <header>
             <nav>
+                <a href="/">
+                    <img class="logo" src="/assets/images/favicons/favicon-32x32.png" alt="Tech tales logo">
+                </a>
                 <ul>
-                    <li>
-                        <a href="/">Home</a>
-                        <a href="/about/">About</a>
-                        <a href="/posts/">Blog</a>
-                    </li>
+                    {% for item in navigation.items %}
+                        <li>
+                            <a href="{{ item.url }}" {% if page.url == item.url %} class="active" {% endif %}>
+                                {{ item.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
                 </ul>
             </nav>
-        </header>
-        <main>
-            {{ content | safe }}
-        </main>
-        <footer>
-            <p>
-                &copy; 2024 - Made with 11ty and ❤️ by Neer
-            </p>
-        </footer>
+        </body>
     </body>
-</html>
+</html></header><main>
+{{ content | safe }}</main><footer>
+<p>
+    &copy; 2024 - Built with 11ty and ❤️ in Copenhagen by Neer
+</p></footer></body></html></body></html>

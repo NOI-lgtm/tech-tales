@@ -6,3 +6,5 @@ _site
 
 # secret file
 .env
+
+NOTES.md

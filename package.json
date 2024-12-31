@@ -5,13 +5,23 @@
   "scripts": {
     "clean": "rm -rf _site",
     "build": "npm run clean && npx @11ty/eleventy",
-    "start": "eleventy --serve"
+    "start": "npm run clean && concurrently \"eleventy --serve\" \"npm run watch:css\"",
+    "watch:css": "postcss src/assets/css/main.css -o _site/assets/css/main.css --watch --verbose",
+    "postcss": "postcss src/assets/css/main.css -o _site/assets/css/main.css"
   },
   "keywords": [],
-  "author": "Neer <nirmala@surf.net.np> (https://neer.netlify.app/)",
+  "author": "Neer",
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0"
+    "@11ty/eleventy": "3.0.0",
+    "@11ty/eleventy-img": "5.0.0",
+    "autoprefixer": "10.4.20",
+    "chokidar-cli": "3.0.0",
+    "concurrently": "9.1.2",
+    "cssnano": "7.0.6",
+    "postcss": "8.4.49",
+    "postcss-cli": "11.0.0",
+    "postcss-import": "16.1.0"
   }
 }

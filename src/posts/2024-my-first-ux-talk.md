@@ -1,5 +1,5 @@
 ---
-title: Choosing accessible font for my blog
+title: My first on stage talk about designOps
 layout: post.njk
 excerpt: I love fonts. Fonts are the window for understanding the text. It can make or break the mental model of readability. If fonts are not eligible the purpose and meaning of the text gets lost.
 ---

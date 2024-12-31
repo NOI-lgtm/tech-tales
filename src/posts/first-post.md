@@ -1,11 +1,11 @@
 ---
-title: My First Blog Post
+title: Getting started on writing blog with Eleventy
 layout: post.njk
-excerpt: This is a short excerpt of my first blog post.
+excerpt: I decided to use Eleventy after couple of thoughts and experimentation with other static site generator such as Gatsby, NextJS and etc.
 ---
 
-# My first Blog Dec 25, 2024
+# Getting started on writing blog with Eleventy
 
-Posts Dec 25, 2024
+I decided to use Eleventy after couple of thoughts and experimentation with other static site generator such as Gatsby, NextJS and etc. I read a lot of blogs and writings from the frontend and accessibility folks. Most of the accessibility, frontend design and development community has used 11ty.
 
-Welcome to My Tech Tales!
+Therefore, I decided to give it a try. I looked at the starter themes and I found a very interesting theme called Excellent Eleventy created by Lene Saile. And it was really nice to see a full accessible blog. So, I looked at the Github code and got inspired and decided to make a full accessible blog for myself. I am really enjoying using Eleventy.

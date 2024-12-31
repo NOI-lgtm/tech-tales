@@ -1,5 +1,14 @@
+const fs = require("fs");
+const postcss = require("postcss");
+const autoprefixer = require("autoprefixer");
+const cssnano = require("cssnano");
+const postcssImport = require("postcss-import");
+
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addWatchTarget("src/assets/css");
+  eleventyConfig.addBundle("css");
+  eleventyConfig.addPassthroughCopy("src/assets/images");
+  eleventyConfig.addPassthroughCopy("src/assets/fonts");
 
   eleventyConfig.addFilter(
     "dateDisplay",
@@ -17,11 +26,34 @@ module.exports = function (eleventyConfig) {
       });
   });
 
+  eleventyConfig.addTransform("postcss", async (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      const css = fs.readFileSync("src/assets/css/main.css", "utf8");
+      const result = await postcss([
+        postcssImport,
+        autoprefixer,
+        cssnano,
+      ]).process(css, {
+        from: "src/assets/css/main.css",
+        to: "src/assets/css/main.css",
+      });
+
+      return content.replace("</head>", `<style>${result.css}</style></head>`);
+    }
+    return content;
+  });
+
+  eleventyConfig.setBrowserSyncConfig({
+    files: ["_site/assets/css/**/*.css"],
+    open: true,
+  });
+
   return {
     dir: {
       input: "src",
       output: "_site",
-      includes: "_layouts",
+      includes: "_includes",
+      layouts: "_layouts",
       data: "_data",
     },
   };
