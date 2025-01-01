@@ -1,15 +1,24 @@
 # Tech Tales
 
-Welcome to **Tech Tales**, a personal blog where I share my daily encounters, reflections, and stories from the world of **User Experience (UX)**, **Accessibility (a11y)**, and **Frontend Development**.
+A personal blog exploring the intersection of **User Experience (UX)**, **Accessibility (a11y)**, **Frontend Development** and many other things. Capturing daily encounters, lessons learned, and ideas for crafting meaningful, inclusive digital experiences.
 
-This space is a blend of creativity and curiosity—a journal of lessons learned, challenges faced, and the joys of learning about meaningful, and inclusive digital experiences.
 
-## ✨ About
+## 🛠️ Built With
 
-In **Tech Tales**, I delve into:
+- **[Eleventy](https://www.11ty.dev/)**: A simple and powerful static site generator.
+- **[Markdown](https://www.markdownguide.org/)**: For writing posts and content.
 
-- **User Experience (UX)**: The process of designing digital products that are easy, enjoyable, and meaningful for users to interact with.
-- **Accessibility (a11y)**: Creating digital experiences that everyone can use, no matter their abilities.
-- **Frontend Development**: The craft of turning ideas into interactive, performant, and user-friendly applications.
 
-This blog captures the intersection of these fields through the lens of personal, day-to-day experiences.
+## 🎨 Design Highlights
+
+- **Themes**: A clean, accessible design with system light and dark themes.
+- **Responsive Layout**: Optimized for devices of all sizes.
+- **Minimal UI**: Focused on content readability and simplicity.
+- **Progressive enhancement**: Works without JavaScript
+
+
+## ✨ Inspirations and credits
+
+- **[Excellent Eleventy template](https://github.com/madrilene/eleventy-excellent)**: A starter template
+- All A11y, UX and design front-end community
+
