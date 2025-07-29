@@ -1,8 +1,45 @@
-{% extends "../_layouts/base.njk" %}
-{% block content %}
-    <article>
-        <h1>{{ title }}</h1>
-        <p>{{ date | dateDisplay }}</p>
-        {{ content | safe }}
-    </article>
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+        <style>{% getBundle "css" %}</style>
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/">
+                    <img class="logo" src="/assets/images/favicons/favicon-32x32.png" alt="Tech tales logo">
+                </a>
+                <ul>
+                    {% for item in navigation.items %}
+                        <li>
+                            <a href="{{ item.url }}" {% if page.url == item.url %} class="active" {% endif %}>
+                                {{ item.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </header>
+        <main class="post">
+            <div class="post-content">
+                <h1>{{ title }}</h1>
+                <time datetime="{{ date | dateISO }}">
+                    {{ date | dateDisplay }}
+                </time>
+                {{ content | safe }}
+            </div>
+        </main>
+        <footer>
+            <p>
+                &copy; 2024 - Built with 11ty and ❤️ in Copenhagen by Neer
+            </p>
+        </footer>
+    </body>
+</html>

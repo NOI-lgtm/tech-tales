@@ -1,19 +1,19 @@
 ---
 title: Blog
-layout: post.njk
+layout: base.njk
 permalink: /posts/
 ---
 
 # Blog Posts
 
-<ul>
-  {% for post in collections.posts %}
+<ul class="post-list">
+  {% for post in collections.posts -%}
     <li>
         <a href="{{ post.url }}">
         <h2>{{ post.data.title }}</h2>
         </a>
         <time datetime="{{ post.date }}">{{ post.date | dateDisplay }}</time>
-        <p>{{ post.data.excerpt }}</p>
+        {{ post.data.excerpt }}
       </li>
-  {% endfor %}
+  {%- endfor %}
 </ul>

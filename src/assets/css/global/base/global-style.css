@@ -7,6 +7,7 @@
     --text-color: #302f2f;
     --active-color: #302f2f;
     --heading-color: var(--text-color);
+    --link-color: #3344dd;
   }
 }
 
@@ -18,6 +19,7 @@
     --text-color: #f5efef;
     --active-color: #302f2f;
     --heading-color: #f5efefe3;
+    --link-color: #55a1ff;
   }
 }
 
@@ -85,6 +87,15 @@ footer {
 
 main {
   flex: 1 0 auto;
+}
+/* List styles */
+ul {
+  font-size: var(--step-0);
+  line-height: 1.6;
+}
+
+ul li {
+  font-size: inherit; /* Inherits from parent ul */
 }
 
 main ul li {
@@ -163,4 +174,26 @@ main ul li a:hover {
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
+}
+
+.post-content h1 {
+  padding: 0;
+  padding-top: 4rem;
+  margin: 0;
+}
+
+.post-content ul li {
+  margin-bottom: 0;
+  padding: 0;
+  border: unset;
+  border-radius: unset;
+  list-style-type: disc;
+  margin-left: 1rem;
+  font-size: inherit;
+}
+
+.post-content ul li a {
+  font-size: inherit;
+  color: var(--link-color);
+  text-decoration: underline;
 }
