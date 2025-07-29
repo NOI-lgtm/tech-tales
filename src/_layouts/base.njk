@@ -26,10 +26,14 @@
                     {% endfor %}
                 </ul>
             </nav>
-        </body>
+        </header>
+        <main>
+            {{ content | safe }}
+        </main>
+        <footer>
+            <p>
+                &copy; 2024 - Built with 11ty and ❤️ in Copenhagen by Neer
+            </p>
+        </footer>
     </body>
-</html></header><main>
-{{ content | safe }}</main><footer>
-<p>
-    &copy; 2024 - Built with 11ty and ❤️ in Copenhagen by Neer
-</p></footer></body></html></body></html>
+</html>

@@ -1,10 +1,9 @@
 ---
 title: Getting started on writing blog with Eleventy
+date: 2024-12-26
 layout: post.njk
 excerpt: I decided to use Eleventy after couple of thoughts and experimentation with other static site generator such as Gatsby, NextJS and etc.
 ---
-
-# Getting started on writing blog with Eleventy
 
 I decided to use Eleventy after couple of thoughts and experimentation with other static site generator such as Gatsby, NextJS and etc. I read a lot of blogs and writings from the frontend and accessibility folks. Most of the accessibility, frontend design and development community has used 11ty.
 

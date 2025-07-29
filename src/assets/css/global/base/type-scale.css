@@ -126,6 +126,7 @@ p {
 }
 
 time {
-  padding-top: 4px;
+  padding-top: 8px;
   display: block;
+  padding-bottom: 24px;
 }

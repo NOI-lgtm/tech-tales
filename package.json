@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf _site",
-    "build": "npm run clean && npx @11ty/eleventy",
+    "build": "npm run clean && NODE_ENV=production npx @11ty/eleventy --pathprefix=my-tech-tales",
     "start": "npm run clean && concurrently \"eleventy --serve\" \"npm run watch:css\"",
     "watch:css": "postcss src/assets/css/main.css -o _site/assets/css/main.css --watch --verbose",
     "postcss": "postcss src/assets/css/main.css -o _site/assets/css/main.css"
