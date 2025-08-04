@@ -2,7 +2,7 @@
 title: "Build your product based on evidence, not false beliefs. - by uxmyths"
 date: 2025-07-31
 layout: post.njk
-excerpt: "In the world of digital product design, it’s easy to follow what sounds like best practice. But many widely shared beliefs like “users don’t scroll” or “accessibility is too costly” aren’t backed by evidence."
+excerpt: "In the world of digital product design, it’s easy to follow what sounds like best practice."
 ---
 
 In the world of digital product design, it’s easy to follow what sounds like best practice. But many widely shared beliefs like “users don’t scroll” or “accessibility is too costly” aren’t backed by evidence. UXMyths.com compiles and debunks these common misconceptions using usability studies and real-world data. Here’s a look at a few myths that frequently lead teams astray, especially around user behavior and accessibility.

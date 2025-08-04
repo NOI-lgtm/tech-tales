@@ -2,7 +2,7 @@
 title: My first post of 2025 learning more about Eleventy
 date: 2025-01-01
 layout: post.njk
-excerpt: With the new year beginning, I needed to set up a folder for this year’s posts. Having only worked with starter templates before, this was my first experience building from scratch. It led me to explore how 11ty manages categorized content.
+excerpt: With the new year underway, I started setting up a new folder structure for this year’s blog posts.
 
 ---
 
