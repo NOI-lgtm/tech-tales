@@ -18,8 +18,9 @@
                 </a>
                 <ul>
                     {% for item in navigation.items %}
+                        {% set active = (item.url != "/" and page.url.indexOf(item.url) === 0) or (item.url == "/" and page.url == "/") %}
                         <li>
-                            <a href="{{ item.url }}" {% if page.url == item.url %} class="active" {% endif %}>
+                            <a href="{{ item.url }}" {% if active %} class="active" {% endif %}>
                                 {{ item.title }}
                             </a>
                         </li>

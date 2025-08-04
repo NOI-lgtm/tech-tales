@@ -1,13 +1,16 @@
 ---
 title: Blog
 layout: base.njk
-permalink: /posts/
+pagination:
+  data: collections.posts
+  size: 5
+  alias: postslist
 ---
 
 # Blog Posts
 
 <ul class="post-list">
-  {% for post in collections.posts -%}
+  {% for post in postslist -%}
     <li>
         <time datetime="{{ post.date }}">{{ post.date | dateDisplay }}</time>
         <a href="{{ post.url }}">
