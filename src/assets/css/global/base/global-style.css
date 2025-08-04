@@ -202,6 +202,10 @@ main ul li a:hover {
   line-height: 1.5;
 }
 
+.intro p {
+  font-size: clamp(var(--step-0), 4vw, var(--step-1));
+}
+
 .post-content h1 {
   font-size: clamp(var(--step-2), 5vw, var(--step-3));
   padding: 0;
