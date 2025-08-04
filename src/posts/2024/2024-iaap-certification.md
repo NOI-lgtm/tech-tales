@@ -27,7 +27,7 @@ If you’re considering taking the exam, I highly recommend mixing formal readin
 <br />
 <br />
 
-## Reflections and What’s Next
+## Reflections and what’s next
 
 I realized how much nuance exists in accessibility. No checklist is perfect. Real-world users break assumptions. Standards evolve. That’s the humbling part. I am contineously expanding my interest into **cognitive accessibility, internationalization, and inclusive research**.
 
@@ -40,7 +40,7 @@ If you’re thinking about the CPACC or any IAAP certification, go for it. But d
 
 ---
 
-## Resources I Found Useful:
+## Resources I found useful:
 
 - [IAAP CPACC Body of Knowledge](https://www.accessibilityassociation.org/s/cpacc)
 - [W3C Web Accessibility Initiative](https://www.w3.org/WAI/)
