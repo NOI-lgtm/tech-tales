@@ -2,10 +2,11 @@
 title: "Today's reading topics on web forms, ux, and usability"
 date: 2025-07-30
 layout: post.njk
-excerpt: "I am exploring and researching on web forms"
+excerpt: "I’ve been exploring topics around web forms, UX, and usability to find ways to create more user-friendly digital experiences."
 ---
 
-<br>
+I’ve been exploring topics around web forms, UX, and usability to find ways to create more user-friendly digital experiences. It’s fascinating how small changes—like labeling, input types, or error messaging—can significantly reduce friction and confusion for users. Along with practical form improvements, I’m also looking into broader usability principles that guide how users interact with websites and apps, making sure those interactions feel smooth and intuitive.
+
 <br>
 
 ## Key topics explored today

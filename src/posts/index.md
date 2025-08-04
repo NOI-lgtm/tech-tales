@@ -7,7 +7,7 @@ pagination:
   alias: postslist
 ---
 
-# Blog Posts
+# Blog posts
 
 <ul class="post-list">
   {% for post in postslist -%}
