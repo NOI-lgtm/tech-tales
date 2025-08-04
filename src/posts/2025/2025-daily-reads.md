@@ -5,7 +5,7 @@ layout: post.njk
 excerpt: "I’ve been exploring topics around web forms, UX, and usability to find ways to create more user-friendly digital experiences."
 ---
 
-I’ve been exploring topics around web forms, UX, and usability to find ways to create more user-friendly digital experiences. It’s fascinating how small changes—like labeling, input types, or error messaging—can significantly reduce friction and confusion for users. Along with practical form improvements, I’m also looking into broader usability principles that guide how users interact with websites and apps, making sure those interactions feel smooth and intuitive.
+I’ve been exploring topics around web forms, UX, and usability to find ways to create more user-friendly digital experiences. It’s fascinating how small changes labeling, input types, or error messaging can significantly reduce friction and confusion for users. Along with practical form improvements, I’m also looking into broader usability principles that guide how users interact with websites and apps, making sure those interactions feel smooth and intuitive.
 
 <br>
 
