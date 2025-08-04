@@ -33,7 +33,7 @@ src/
 
 <br>
 
-## 📦 Presentational vs Container Components
+## 📦 Presentational vs container components
 
 Although hooks have blurred the line between UI and logic, separating presentational components (focused on visuals) from containers (focused on logic/state) is still helpful — especially for reusability and testing.
 
@@ -55,7 +55,7 @@ This setup supports co-location of styles, tests, and logic within the component
 
 <br>
 
-## 🎨 Visual Hierarchy and Design Consistency
+## 🎨 Visual hierarchy and design consistency
 
 Organize UI layers from the page level down to atoms:
 

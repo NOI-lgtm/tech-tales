@@ -2,10 +2,12 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* Default (Light Mode) Tokens */
-    --background-color: rgb(209, 209, 209);
+    --background-color: #f8f8ff;
     --border-color: #e5e5e5;
     --text-color: #302f2f;
     --active-color: #302f2f;
+    --body-text-color: #3e3d3d;
+    --accent-color: #5e5e5e;
     --heading-color: var(--text-color);
     --link-color: #3344dd;
   }
@@ -34,6 +36,7 @@ html {
 body {
   font-family: "Atkinson Hyperlegible", "Helvetica Neue", Arial, sans-serif;
   padding: 1.5rem;
+  background-color: var(--background-color);
 }
 
 /* Links */
@@ -41,9 +44,18 @@ a {
   color: currentcolor;
   text-decoration-thickness: 0.08em;
 }
+p {
+  color: var(--body-text-color);
+}
 
 a:hover {
   text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 0;
 }
 
 /* Focus styles */
@@ -52,6 +64,10 @@ a:hover {
   outline-offset: 0.3ch;
 }
 
+time {
+  color: var(--accent-color);
+  font-size: var(--step--1);
+}
 /* Text selection */
 /* ::selection {
   background-color: var(--color-text);
@@ -121,7 +137,6 @@ header {
 
 nav {
   display: flex;
-  gap: 1rem;
   justify-content: inherit;
   align-items: center;
   width: 100%;
@@ -129,13 +144,12 @@ nav {
 
 nav ul {
   display: flex;
-  gap: 1rem;
   list-style: none;
 }
 
 nav ul li {
   display: flex;
-  gap: 1rem;
+  padding: 0 1rem;
   font-size: var(--step-0);
 }
 
@@ -156,12 +170,12 @@ nav li a {
   text-decoration: none;
   padding: 0.5rem;
   text-align: center;
-  width: 100px;
   letter-spacing: 0.5px;
 }
 
 main h1 {
-  padding: 4rem 0 3rem 0;
+  padding: 4rem 0 1rem 0;
+  text-wrap: inherit;
 }
 
 main ul li a {
@@ -176,9 +190,35 @@ main ul li a:hover {
   text-underline-offset: 2px;
 }
 
+.intro h1 {
+  font-size: clamp(var(--step-3), 5vw, var(--step-5));
+}
+
+.intro h2 {
+  padding: 2rem 0 1rem 0;
+  font-size: clamp(var(--step-2), 3vw, var(--step-3));
+  max-width: 90%;
+  text-wrap: balance;
+  line-height: 1.5;
+}
+
 .post-content h1 {
+  font-size: clamp(var(--step-2), 5vw, var(--step-3));
   padding: 0;
   padding-top: 4rem;
+  margin: 0;
+}
+
+.post-content h2 {
+  font-size: clamp(var(--step-1), 5vw, var(--step-2));
+  padding: 0;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.post-content h3 {
+  font-size: clamp(var(--step-0), 5vw, var(--step-1));
+  padding: 0.5rem 0;
   margin: 0;
 }
 
@@ -192,8 +232,17 @@ main ul li a:hover {
   font-size: inherit;
 }
 
-.post-content ul li a {
+.post-content a {
   font-size: inherit;
   color: var(--link-color);
   text-decoration: underline;
+}
+
+.pagination > p {
+  padding: 0 1rem;
+}
+
+.post-list h2 {
+  font-size: var(--step-1);
+  padding-bottom: 1rem;
 }

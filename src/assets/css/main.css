@@ -1,1 +1,32 @@
 @import "global/index.css";
+
+@media (max-width: 480px) {
+  .intro h1,
+  main h1,
+  .post-content h1 {
+    padding: 1rem 0 1rem 0;
+    font-size: var(--step-2);
+  }
+
+  .intro h2,
+  main h2,
+  .post-content h2 {
+    padding: 1rem 0 1rem 0;
+    font-size: var(--step-1);
+    max-width: 90%;
+    line-height: 1.5;
+  }
+  main,
+  footer {
+    padding: 0 1rem;
+  }
+  .main-top-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  :where(img.logo) {
+    max-inline-size: 100%; /* limit max width on mobile */
+    min-inline-size: 200px; /* prevent shrinking too small */
+  }
+}

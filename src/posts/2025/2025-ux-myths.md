@@ -9,11 +9,11 @@ In the world of digital product design, it’s easy to follow what sounds like b
 
 <br>
 
-## 🚫 UX Myths That Still Mislead
+## UX myths that still mislead
 
 <br>
 
-### **Myth: Users read all the text**
+### **Myth: people read all the text**
 
 Most users don’t read every word. They scan—looking for headings, keywords, and actionable elements. Studies show less than 20% of content is typically read on a page.
 
@@ -25,7 +25,7 @@ Most users don’t read every word. They scan—looking for headings, keywords, 
 
 <br>
 
-### **Myth: People don’t scroll**
+### **Myth: people don’t scroll**
 
 Contrary to this belief, users do scroll—often more than expected—when content feels relevant and well organized. Long pages, when structured thoughtfully, can increase engagement and usability.
 
@@ -37,7 +37,7 @@ Contrary to this belief, users do scroll—often more than expected—when conte
 
 <br>
 
-### **Myth: Accessibility is too complex or expensive**
+### **Myth: accessibility is too complex or expensive**
 
 Accessibility isn’t a luxury—it’s a baseline for inclusive design. And it doesn’t require large budgets or extensive resources. Many improvements, like proper heading structure, alt text, and contrast checking, can be implemented early with minimal effort.
 
@@ -49,7 +49,7 @@ Accessibility isn’t a luxury—it’s a baseline for inclusive design. And it 
 
 <br>
 
-### **Myth: Accessible design limits visual creativity**
+### **Myth: accessible design limits visual creativity**
 
 Designs that are accessible can be just as visually polished and brand-consistent. Accessibility and aesthetics are not mutually exclusive—many of the best-designed products are also highly inclusive.
 
@@ -61,7 +61,7 @@ Designs that are accessible can be just as visually polished and brand-consisten
 
 <br>
 
-### **Myth: Experts don’t need to test their designs**
+### **Myth: experts don’t need to test their designs**
 
 Expertise is valuable—but it doesn’t replace testing. Even the most experienced designers can overlook usability issues. Testing with users often reveals unexpected behaviors that no amount of theory can predict.
 
@@ -73,15 +73,19 @@ Expertise is valuable—but it doesn’t replace testing. Even the most experien
 
 <br>
 
-## 🧠 Why It Matters
+## Why it matters
 
 Relying on unproven assumptions leads to friction, confusion, and lost trust. When digital experiences are based on research and inclusive thinking, they perform better—for everyone.
 
 UXMyths.com provides a solid reminder: **good UX comes from understanding actual behavior, not guessing.** It encourages teams to validate ideas with evidence—and to include accessibility and user input as foundational, not optional.
 
+<br>
+
 ---
 
-## 🔍 Final Takeaway
+<br>
+
+## Final takeaway
 
 - Scanning is the norm, not reading.
 - Scrolling is expected—if the layout supports it.
@@ -91,6 +95,8 @@ UXMyths.com provides a solid reminder: **good UX comes from understanding actual
 Before falling back on what “sounds right,” it’s worth pausing to ask: _Is this based on user behavior or assumption?_
 
 Better products begin with better questions—and better evidence.
+
+<br>
 
 ---
 
@@ -102,12 +108,12 @@ _Based on research and insights from [UXMyths.com](https://uxmyths.com)._
 
 <br>
 
-## 🛠️ Tools/Resources Discovered
+## Resources discovered
 
-- [Busting UX Myths: 6 Misconceptions People Still Believe in 2025](https://adamfard.com/blog/ux-myths)
-- [Adobe Demystifies UX Design Myths](https://thecreativestore.co.nz/creative-talk/digital/adobe-demystifies-ux-design-myths/)
+- [Busting UX Myths: 6 misconceptions people still believe in 2025](https://adamfard.com/blog/ux-myths)
+- [Adobe demystifies UX design myths](https://thecreativestore.co.nz/creative-talk/digital/adobe-demystifies-ux-design-myths/)
 - [Debunking common UX myths](https://www.robin-schreiner.de/thoughts/2023-08-12-common-ux-myths/)
-- [The 5 Biggest Myths About User Experience (UX) Design That Are Holding You Back](https://medium.com/@dariazaytseva07/the-5-biggest-myths-about-user-experience-ux-design-that-are-holding-you-back-aa094154203e)
+- [The 5 biggest myths about User Experience (UX) design that are holding you back](https://medium.com/@dariazaytseva07/the-5-biggest-myths-about-user-experience-ux-design-that-are-holding-you-back-aa094154203e)
 - [Uncover the truth behind common UX myths](https://clay.global/blog/ux-guide/ux-myths)
 - [Most common misconceptions related to UX design](https://www.novicell.com/uk/latest-thinking/busting-five-ux-myths/)
-- [7 Common UX Design Myths and how to avoid](https://uxplanet.org/7-common-ux-design-myth-ce254486ae6)
+- [7 Common UX design myths and how to avoid](https://uxplanet.org/7-common-ux-design-myth-ce254486ae6)

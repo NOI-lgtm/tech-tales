@@ -1,5 +1,5 @@
 ---
-title: "Fixing Unwanted Empty Tags in Eleventy"
+title: "Fixing unwanted empty tags in Eleventy"
 date: 2025-01-05
 layout: post.njk
 excerpt: "While building this blog with Eleventy, I noticed something strange many empty HTML tags were being rendered between paragraphs."

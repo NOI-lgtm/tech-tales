@@ -1,5 +1,5 @@
 ---
-title: My First Post of 2025 — Learning More About Eleventy
+title: My first post of 2025 learning more about Eleventy
 date: 2025-01-01
 layout: post.njk
 excerpt: With the new year beginning, I needed to set up a folder for this year’s posts. Having only worked with starter templates before, this was my first experience building from scratch. It led me to explore how 11ty manages categorized content.
@@ -14,8 +14,8 @@ It was surprisingly simple. No fancy setup, just a few lines in `eleventy.config
 
 <br>
 
-## 🔗 Links I Found Interesting
+## 🔗 Links I found interesting
 
 - [Resources collected by GOV.UK](https://x-govuk.github.io/#projects)
 
-- [Is it Accessible? By Scott O'Hara](https://www.scottohara.me/blog/2016/10/15/is-it-accessible.html)
+- [Is it accessible? By Scott O'Hara](https://www.scottohara.me/blog/2016/10/15/is-it-accessible.html)
