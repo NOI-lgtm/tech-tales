@@ -10,6 +10,7 @@
     --accent-color: #5e5e5e;
     --heading-color: var(--text-color);
     --link-color: #3344dd;
+    --logo-bg: transparent;
   }
 }
 
@@ -17,8 +18,9 @@
   :root {
     /* Dark Mode Tokens */
     --background-color: #474747;
+    --logo-bg: #fff8eb;
     --border-color: #363636;
-    --text-color: #f5efef;
+    --text-color: #fff8eb;
     --active-color: #302f2f;
     --heading-color: #f5efefe3;
     --link-color: #55a1ff;
@@ -44,8 +46,28 @@ a {
   color: currentcolor;
   text-decoration-thickness: 0.08em;
 }
+
+.logo-link {
+  background-color: var(--logo-bg);
+  border-radius: 50px;
+  position: relative;
+  padding: 10px 92px 10px 10px;
+}
+
 p {
   color: var(--body-text-color);
+}
+
+pre {
+  background: #252627;
+  padding: 1em;
+  color: #e0e0e0;
+  font-weight: medium;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-x: scroll;
+  font-size: 1rem;
 }
 
 a:hover {
